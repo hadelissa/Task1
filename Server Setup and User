@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Creating a user and setting permissions
+sudo adduser user1
+sudo passwd user1
+sudo usermod -aG sudo user1
